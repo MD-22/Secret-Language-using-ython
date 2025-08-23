@@ -4,7 +4,7 @@
 
 
 #encryption
-'''import random
+import random
 import string
 
 result=""
@@ -23,7 +23,7 @@ if len(n)<=3:
     
 else:
     #print(n[0])
-    print(f"{result}{n[1:len(n)]+n[0]}{result1}")'''
+    print(f"{result}{n[1:len(n)]+n[0]}{result1}")
 
 
 #Now decryption
@@ -37,5 +37,6 @@ else:
     b=n[3:-3]
     print(b)
     print(f"{b[-1]}{b[0:-1]}")
+
 
    
