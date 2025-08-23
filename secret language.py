@@ -37,7 +37,7 @@ def decrypt():
     
     else:
         b=n[3:-3]
-        print(b)
+        #print(b)
         print(f"{b[-1]}{b[0:-1]}")
 
 
